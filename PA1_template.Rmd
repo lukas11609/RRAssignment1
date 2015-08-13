@@ -40,8 +40,8 @@ hist(byDay$total, col="seagreen4", main="Histogram of steps taken each day", xla
 
 3. Calculate and report the mean and median of the total number of steps taken per day
 ```{r, warning=FALSE,message=FALSE}
-
-
+mean(byDay$total, na.rm=TRUE)
+median(byDay$total, na.rm=TRUE)
 ```
 
 ## What is the average daily activity pattern?
